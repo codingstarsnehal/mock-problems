@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie Place</title>
+    <link rel="stylesheet" href="food.css">
+    <script src="https://kit.fontawesome.com/431379a84d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Main -->
+    <h1>Foodie Place</h1>
+    <nav>
+        <ul>
+            <a href="#"><li>Home</li></a>
+            <a href="#"><li>Order</li></a>
+            <a href="#"><li>Near</li></a>
+            <a href="#"><li>About</li></a>
+        </ul>
+    </nav>
+
+     <!-- Banner with slider -->
+     <div class="slider-banner">
+        <input type="radio" name="slider" id="slideA" checked/>
+        <div class="slider-image">
+          <img src="https://www.queensheadwestbergholt.co.uk/wp-content/uploads/2020/09/QH_50.jpg" height="380px" />
+          <span class="nav">
+            <label for="slideC" class="prev">&lt;</label>
+            <label for="slideB" class="next">&gt;</label>
+          </span>
+        </div>
+      
+        <input type="radio" name="slider" id="slideB"/>
+        <div class="slider-image">
+          <img src="https://images.squarespace-cdn.com/content/v1/5a5dbe4632601eb31977f947/1633327221357-NWREEQY82IAW2PFJXUM0/AirAsia_Food_EverydaySale_PR_4Oct-31Oct2021-1200x628_EN.jpg" height="380px" />
+          <span class="nav">
+            <label for="slideA" class="prev">&lt;</label>
+            <label for="slideC" class="next">&gt;</label>
+          </span>
+        </div>
+      
+        <input type="radio" name="slider" id="slideC"/>
+        <div class="slider-image">
+          <img src="https://img.freepik.com/premium-vector/food-restaurant-promotion-poster-design-social-media-template_7081-3065.jpg?w=2000" height="380px"/>
+          <span class="nav">
+            <label for="slideB" class="prev">&lt;</label>
+            <label for="slideA" class="next">&gt;</label>
+          </span>
+        </div>
+      
+        <div class="bullet-nav">
+          <label for="slideA" id="bulletA" class="bullet"></label>
+          <label for="slideB" id="bulletB" class="bullet"></label>
+          <label for="slideC" id="bulletC" class="bullet"></label>
+        </div>
+      </div>
+
+      <!-- foods -->
+    <section class="items">
+        <div class="item">
+            <img src="images/pizza.jpg" style="width: 300px;">
+            <h4>Pizza</h4>
+            <button>Order</button>
+        </div>
+
+        <div class="item">
+            <img src="images/noodles.jpg" style="width: 300px;">
+            <h4>noodles</h4>
+            <button>Order</button>
+        </div>
+
+            <div class="item">
+                <img src="images/frenchfries.jpg" style="width: 300px;">
+                <h4>frenchfries</h4>
+                <button>Order</button>
+             </div>
+
+             <div class="item">
+                <img src="images/icecream.jpg" style="width: 300px;">
+                <h4>ice-cream</h4>
+                <button>Order</button>
+             </div>
+
+             <div class="item">
+                <img src="images/juice.jpg" style="width: 300px;">
+                <h4>juice</h4>
+                <button>Order</button>
+             </div>
+
+             <div class="item">
+                <img src="images/burger.jpg" style="width: 300px;">
+                <h4>Burger</h4>
+                <button>Order</button>
+             </div>
+
+             <div class="item">
+                <img src="images/cofee.jpg" style="width: 300px;">
+                <h4>coffe</h4>
+                <button>Order</button>
+             </div>
+
+             <div class="item">
+                <img src="images/frenchfries.jpg" style="width: 300px;">
+                <h4>frenchfries</h4>
+                <button>Order</button>
+             </div>
+    </section>
+    
+    <footer>
+        <div><p>© 2020-2021 OnlineFoodShop.</p> 
+		    <p id="one">Rights are reserved</p> 
+        </div>
+       
+       <div>Follow us on
+          <p>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </p> 
+        </div>
+    </footer>
+    
+</body>
+</html>
